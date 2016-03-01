@@ -14,14 +14,22 @@ header nav main article aside footer
     display:block;
     }
 
+
+@font-face {
+    font-family: 'Proxima Nova ScOsf Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Proxima Nova ScOsf Regular'), url('Mark Simonson - Proxima Nova ScOsf Regular.woff') format('woff');
+    }
+
 body
     {
     background: #DE6262; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #DE6262 , #FFB88C); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size:cover;
-    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    font-family:'Raleway', sans-serif;
     } 
+
 
 
 /* containers and positioning */
@@ -163,9 +171,9 @@ footer
 
 /* text styling */    
 
-header div h1
+header div h1 /* FestiVR on home page */
     {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'proxima_nova_scosflight', sans-serif;
     font-size: 100px;
     font-weight: bold;
     color: #FAFAFA;
@@ -178,7 +186,7 @@ a /* About link in NAV bar */
     {
     text-decoration: none;
     color:#FFF;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     }
 
@@ -199,8 +207,9 @@ header p
     margin-top: -100px;
     }
 
-h1
+h1 
   {
+  font-family: 'proxima_nova_scosflight', sans-serif;
   font-size: 40px;
   font-weight: normal;
   color: #ffffff;
@@ -212,19 +221,31 @@ h1
 
 h2 /* description on home page */
   {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;  
   font-size: 40px;
   font-weight: 200;
   color: #fff;
   text-align: center;
   }
 
-h3 
+h3 /* section headers (i.e. ABOUT) */
   {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'proxima_nova_scosflight', sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+  border-top: thick double #ffd24d;
+  padding-top: 20px;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  }
+
+h4 /* "Click below to view the Coachella live stream." */
+  {
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
   font-weight: normal;
-  font-style: italic;
   color: #fff;
   text-align: center;
   margin: 0px;
@@ -232,33 +253,9 @@ h3
   padding-top: 5px;
   }
 
-h4 /* "Based on Drake" */
-  {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 30px;
-  font-weight: normal;
-  font-style: none;
-  color: #f9886b;
-  text-align: center;
-  margin: 0px;
-  padding-bottom: 10px;
-  padding-top: 5px;
-  text-transform: uppercase;
-  }
-
 p
     {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    color: #fff;
-    font-size: 25px;
-    margin-top: 20px;
-    text-align: center;
-    }
-
-footer p
-    {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     color: #fff;
     font-size: 20px;
@@ -266,15 +263,14 @@ footer p
     text-align: center;
     }
 
-.dropdownLink
+footer p
     {
-    width: 460px;
-    height: 150px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -210px;
-    margin-top: 210px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
     }
 
 
@@ -361,3 +357,115 @@ select:hover
     {
     background-image: url("../img/arrowHover.png");
     }
+
+
+/*FONTS - PROXIMA NOVA SC OSF*/
+
+@font-face {
+    font-family: 'proxima_nova_scosfblack';
+    src: url('proxima_nova_scosf_black-webfont.eot');
+    src: url('proxima_nova_scosf_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proxima_nova_scosf_black-webfont.woff2') format('woff2'),
+         url('proxima_nova_scosf_black-webfont.woff') format('woff'),
+         url('proxima_nova_scosf_black-webfont.ttf') format('truetype'),
+         url('proxima_nova_scosf_black-webfont.svg#proxima_nova_scosfblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_scosf_rgbold';
+    src: url('proxima_nova_scosf_bold-webfont.eot');
+    src: url('proxima_nova_scosf_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proxima_nova_scosf_bold-webfont.woff2') format('woff2'),
+         url('proxima_nova_scosf_bold-webfont.woff') format('woff'),
+         url('proxima_nova_scosf_bold-webfont.ttf') format('truetype'),
+         url('proxima_nova_scosf_bold-webfont.svg#proxima_nova_scosf_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_scosflight';
+    src: url('proxima_nova_scosf_light-webfont.eot');
+    src: url('proxima_nova_scosf_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proxima_nova_scosf_light-webfont.woff2') format('woff2'),
+         url('proxima_nova_scosf_light-webfont.woff') format('woff'),
+         url('proxima_nova_scosf_light-webfont.ttf') format('truetype'),
+         url('proxima_nova_scosf_light-webfont.svg#proxima_nova_scosflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_scosf_rgregular';
+    src: url('proxima_nova_scosf_reg-webfont.eot');
+    src: url('proxima_nova_scosf_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proxima_nova_scosf_reg-webfont.woff2') format('woff2'),
+         url('proxima_nova_scosf_reg-webfont.woff') format('woff'),
+         url('proxima_nova_scosf_reg-webfont.ttf') format('truetype'),
+         url('proxima_nova_scosf_reg-webfont.svg#proxima_nova_scosf_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_scosfsemibold';
+    src: url('proxima_nova_scosf_sbold-webfont.eot');
+    src: url('proxima_nova_scosf_sbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proxima_nova_scosf_sbold-webfont.woff2') format('woff2'),
+         url('proxima_nova_scosf_sbold-webfont.woff') format('woff'),
+         url('proxima_nova_scosf_sbold-webfont.ttf') format('truetype'),
+         url('proxima_nova_scosf_sbold-webfont.svg#proxima_nova_scosfsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_scosfthin';
+    src: url('proxima_nova_scosf_thin-webfont.eot');
+    src: url('proxima_nova_scosf_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proxima_nova_scosf_thin-webfont.woff2') format('woff2'),
+         url('proxima_nova_scosf_thin-webfont.woff') format('woff'),
+         url('proxima_nova_scosf_thin-webfont.ttf') format('truetype'),
+         url('proxima_nova_scosf_thin-webfont.svg#proxima_nova_scosfthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_scosfextrabold';
+    src: url('proxima_nova_scosf_xbold-webfont.eot');
+    src: url('proxima_nova_scosf_xbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proxima_nova_scosf_xbold-webfont.woff2') format('woff2'),
+         url('proxima_nova_scosf_xbold-webfont.woff') format('woff'),
+         url('proxima_nova_scosf_xbold-webfont.ttf') format('truetype'),
+         url('proxima_nova_scosf_xbold-webfont.svg#proxima_nova_scosfextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
