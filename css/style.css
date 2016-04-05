@@ -44,7 +44,7 @@ body
 nav
   {
   height:50px;
-  width:30%;
+  width:50%;
   float:right;  
   text-align: right;
   }
@@ -87,17 +87,22 @@ nav ul li
 .coachella
     {
     background-image: url(../images/backgrounds/coachella2.jpg);
+    background-position: center;
     /* background-attachment:fixed; */
     }
 
 .crssd
     {
     background-image: url(../images/backgrounds/crssd.png);
+    background-position: center;
+    background-repeat: no-repeat;
     }
 
-.ultra
+.edc
     {
-    background-image: url(../images/backgrounds/ultra.png);
+    background-image: url(../images/backgrounds/edc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     }
 
 
