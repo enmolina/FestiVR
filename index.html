@@ -3,77 +3,83 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
         <title>FestiVR</title>
-  	    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  	    
+        <!--Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="icon" type="image/png" href="images/8thnote_coral.png">
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300' rel='stylesheet' type='text/css'>
     </head>
-    <body>
-        <div id="logo-header">
-            <a href="index.html"><img src="images/8thnote.png" alt="FestiVR" width="40" height="40" border="0"></a>
-            <nav>
-                <ul id="nav-content" class="clearfix">
-                        <li id="li-home" class="first-nav-item">
-                            <a href="#home" id="link-home">
-                                <span class="hidden">
-                                    HOME
-                                </span>
-                            </a>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top"><img src="images/8thnote_yellow.png" alt="FestiVR" style="width:50px;height:50px">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
                         </li>
                         <li>
-                            <a href="#about" id="link-about">
-                                <span class="desktop-menu-item" aria-hidden="false">
-                                   ABOUT
-                                </span>
-                            </a>
+                            <a class="page-scroll" href="#about">ABOUT</a>
                         </li>
                         <li>
-                            <a href="#research" id="link-research">
-                                <span class="desktop-menu-item" aria-hidden="false">
-                                    RESEARCH
-                                </span>
-                            </a>
+                            <a class="page-scroll" href="#research">RESEARCH</a>
                         </li>
                         <li>
-                            <a href="#results" id="link-results">
-                                <span class="desktop-menu-item" aria-hidden="false">
-                                    RESULTS
-                                </span>
-                            </a>
+                            <a class="page-scroll" href="#results">RESULTS</a>
                         </li>
                     </ul>
-            </nav>
-        </div><!--this closes out entire logo header-->
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
         
        
-        <div id="borderWrapper">
-             <section id="home" class="content-section">    
-                <header>    
-                    <div>
-                        <a href="index.html"><h1>Festi<span style="color:#ffd24d">VR</span></h1></a>
-                    </div>
-                </header>
+        <header>    
+            <div class="container">
+                <h1>Festi<span style="color:#ffd24d">VR</span></h1>
+            </div>
+        </header>
+        <div id="borderWrapper">   
                 
                 <h2>Please select a music festival.</h2>
                 
                 <div id="all-tiles">
-                    <a href="crssd.html">
-                        <div 
-                            class="tile" style="background-image:url(images/tiles/crssd.png);">
-                        </div>
-                    </a>
-                    <a href="coachella.html">
-                        <div 
-                            class="tile" style="background-image:url(images/tiles/coachella.png);">
-                        </div>
-                    </a>
-                    <a href="edc.html">
-                        <div
-                            class="tile" style="background-image:url(images/tiles/edc.png);">
-                        </div>
-                    </a>
+                    <center>
+                        <a href="coachella.html">
+                            <div class="tile" style="background-image:url(images/tiles/coachella3.png);">
+                            </div>
+                        </a>
+                            
+                        <a href="edc.html">
+                            <div class="tile" style="background-image:url(images/tiles/edc2.png);"></div>
+                        </a>
+                    </center>
                 </div>
-            </section>
 
             <section id="about" class="content-section">
                 <h3>About</h3>
@@ -87,8 +93,9 @@
                     [PROCESS VIDEO HERE]
                     <br>
                     <br>
-                    <br>
                 </p>
+            </div>
+        </div>
             </section>
 
             <section id="research" class="content-section">
@@ -115,6 +122,28 @@
             </footer>             
         </div><!--this closes out my borderWrapper-->	
     </body>
+
+    <footer>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
 </html>
 
 

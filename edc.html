@@ -1,75 +1,82 @@
 
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
         <title>FestiVR | Electric Daisy Carnival</title>
-  	    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        
+        <!--Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="icon" type="image/png" href="images/8thnote_coral.png">
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300' rel='stylesheet' type='text/css'>
     </head>
-    <body class="edc">
-        <div id="logo-header">
-            <a href="index.html"><img src="images/8thnote.png" alt="FestiVR" width="40" height="40" border="0"></a>
-            <nav>
-                <ul id="nav-content" class="clearfix">
-                        <li id="li-home" class="first-nav-item">
-                            <a href="index.html">
-                                    HOME
-                            </a>
+    
+    <body class="edc" id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="index.html"><img src="images/8thnote_yellow.png" alt="FestiVR" style="width:50px;height:50px">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
                         </li>
                         <li>
-                            <a href="index.html#about" id="link-about">
-                                <span class="desktop-menu-item" aria-hidden="false">
-                                   ABOUT
-                                </span>
-                            </a>
+                            <a class="page-scroll" href="index.html#about">ABOUT</a>
                         </li>
                         <li>
-                            <a href="index.html#research" id="link-research">
-                                <span class="desktop-menu-item" aria-hidden="false">
-                                    RESEARCH
-                                </span>
-                            </a>
+                            <a class="page-scroll" href="index.html#research">RESEARCH</a>
                         </li>
                         <li>
-                            <a href="#results" id="link-results">
-                                <span class="desktop-menu-item" aria-hidden="false">
-                                    RESULTS
-                                </span>
-                            </a>
+                            <a class="page-scroll" href="index.html#results">RESULTS</a>
                         </li>
-                </ul>
-            </nav>
-        </div>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <header>    
+            <div class="container">
+                <h1>Festi<span style="color:#633d82">VR</span></h1>
+            </div>
+        </header>
+
         <div id="borderWrapper">
-            <header>    
-                <div>
-                    <a href="index.html"><h1>Festi<span style="color:#633d82">VR</span></h1></a>
-                </div>
-            </header>
             <h2>How would you like to experience EDC today?</h2>
-            <div id="wrapper">     
-                <div class="stream">
-                    <a href="streamEDC.html"><img src="images/streamPurple.png" class="imgBorder"/></a>
-                </div> 
-                <div class="vr">
-                    <a href="vrEDC.html"><img src="images/vrPurple.png" class="imgBorder"/></a>
-                </div>
-                <footer>
-                    <p>Copyright 2016 | Emily Molina </p>
-                </footer>   
-            </div><!--this closes out my wrapper-->
-        </div><!--this closes out my borderWrapper-->
-
-
-
-
-<!--Javascript commands that describe your scene-->
-	    <script>
-    		VR.floor(); //make a floor
-		</script>
-	</body>
+            <div id="options">
+                <center>     
+                    <div class="stream">
+                        <a href="streamEDC.html"><img src="images/streamPurple.png" class="imgBorder"/></a>
+                    </div> 
+                    <div class="vr">
+                        <a href="vrEDC.html"><img src="images/vrPurple.png" class="imgBorder"/></a>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </body>
 </html>
 
 
